@@ -3,8 +3,8 @@ package com.utp.academics.projects.mappers;
 import com.utp.academics.commons.entities.AcademicItemType;
 import com.utp.academics.commons.utils.AcademicItemFactory;
 import com.utp.academics.projects.entities.ProjectEntity;
-import com.utp.academics.projects.presentation.dtos.ProjectCreateRequest;
-import com.utp.academics.projects.presentation.dtos.ProjectResponse;
+import com.utp.academics.projects.presentations.dtos.ProjectCreateRequest;
+import com.utp.academics.projects.presentations.dtos.ProjectResponse;
 
 import org.springframework.stereotype.Component;
 

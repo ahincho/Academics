@@ -2,7 +2,7 @@ package com.utp.academics.projects.services;
 
 import com.utp.academics.projects.entities.ProjectEntity;
 import com.utp.academics.projects.mappers.ProjectMapper;
-import com.utp.academics.projects.presentation.dtos.ProjectResponse;
+import com.utp.academics.projects.presentations.dtos.ProjectResponse;
 import com.utp.academics.projects.repositories.ProjectJpaRepository;
 
 import org.springframework.stereotype.Service;

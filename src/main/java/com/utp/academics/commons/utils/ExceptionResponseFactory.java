@@ -1,8 +1,8 @@
 package com.utp.academics.commons.utils;
 
-import com.utp.academics.commons.presentaton.dtos.ExceptionResponse;
-import com.utp.academics.commons.presentaton.dtos.NotValidField;
-import com.utp.academics.commons.presentaton.dtos.NotValidFieldsResponse;
+import com.utp.academics.commons.presentations.dtos.ExceptionResponse;
+import com.utp.academics.commons.presentations.dtos.NotValidField;
+import com.utp.academics.commons.presentations.dtos.NotValidFieldsResponse;
 
 import jakarta.servlet.http.HttpServletRequest;
 

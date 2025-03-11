@@ -2,8 +2,8 @@ package com.utp.academics.exams.services;
 
 import com.utp.academics.exams.entities.ExamEntity;
 import com.utp.academics.exams.mappers.ExamMapper;
-import com.utp.academics.exams.presentation.dtos.ExamCreateRequest;
-import com.utp.academics.exams.presentation.dtos.ExamResponse;
+import com.utp.academics.exams.presentations.dtos.ExamCreateRequest;
+import com.utp.academics.exams.presentations.dtos.ExamResponse;
 import com.utp.academics.exams.repositories.ExamJpaRepository;
 
 import org.springframework.stereotype.Service;

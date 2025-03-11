@@ -3,8 +3,8 @@ package com.utp.academics.exams.mappers;
 import com.utp.academics.commons.entities.AcademicItemType;
 import com.utp.academics.commons.utils.AcademicItemFactory;
 import com.utp.academics.exams.entities.ExamEntity;
-import com.utp.academics.exams.presentation.dtos.ExamCreateRequest;
-import com.utp.academics.exams.presentation.dtos.ExamResponse;
+import com.utp.academics.exams.presentations.dtos.ExamCreateRequest;
+import com.utp.academics.exams.presentations.dtos.ExamResponse;
 
 import org.springframework.stereotype.Component;
 

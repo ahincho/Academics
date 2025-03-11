@@ -3,8 +3,8 @@ package com.utp.academics.homeworks.mappers;
 import com.utp.academics.commons.entities.AcademicItemType;
 import com.utp.academics.commons.utils.AcademicItemFactory;
 import com.utp.academics.homeworks.entities.HomeworkEntity;
-import com.utp.academics.homeworks.presentation.dtos.HomeworkCreateRequest;
-import com.utp.academics.homeworks.presentation.dtos.HomeworkResponse;
+import com.utp.academics.homeworks.presentations.dtos.HomeworkCreateRequest;
+import com.utp.academics.homeworks.presentations.dtos.HomeworkResponse;
 
 import org.springframework.stereotype.Component;
 

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: academics
+  datasource:
+    url: ${DATASOURCE_URL:jdbc:postgresql://localhost:5432/academics}
+    username: ${DATASOURCE_USERNAME:postgres}
+    password: ${DATASOURCE_PASSWORD:postgres}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: ${JPA_SHOW_SQL:true}
+    open-in-view: false
+logging:
+  level:
+    org.hibernate.orm.connections.pooling: WARN
+    com.zaxxer.hikari: WARN
+    org.hibernate: INFO
+server:
+  port: ${SERVER_PORT:8080}
